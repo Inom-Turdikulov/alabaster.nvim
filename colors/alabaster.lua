@@ -8,23 +8,23 @@ vim.g.colors_name = "alabaster"
 local theme
 ---@diagnostic disable: undefined-global
 if vim.o.background == "dark" then
-    -- terminal colors
-    vim.g.terminal_color_0 = "#000000"
-    vim.g.terminal_color_1 = "#d2322d"
-    vim.g.terminal_color_2 = "#6abf40"
-    vim.g.terminal_color_3 = "#cd974b"
-    vim.g.terminal_color_4 = "#217EBC"
-    vim.g.terminal_color_5 = "#9B3596"
-    vim.g.terminal_color_6 = "#178F79"
-    vim.g.terminal_color_7 = "#cecece"
-    vim.g.terminal_color_8 = "#333333"
-    vim.g.terminal_color_9 = "#c33c33"
-    vim.g.terminal_color_10 = "#95cb82"
-    vim.g.terminal_color_11 = "#dfdf8e"
-    vim.g.terminal_color_12 = "#71aed7"
-    vim.g.terminal_color_13 = "#cc8bc9"
-    vim.g.terminal_color_14 = "#47BEA9"
-    vim.g.terminal_color_15 = "#ffffff"
+    -- terminal colors (based on OneDark)
+    vim.g.terminal_color_0 =  "#0E1013";
+    vim.g.terminal_color_1 =  "#E55561";
+    vim.g.terminal_color_2 =  "#8EBD6B";
+    vim.g.terminal_color_3 =  "#E2B86B";
+    vim.g.terminal_color_4 =  "#4FA6ED";
+    vim.g.terminal_color_5 =  "#BF68D9";
+    vim.g.terminal_color_6 =  "#188C9B";
+    vim.g.terminal_color_7 =  "#ABB2BF";
+    vim.g.terminal_color_8 =  "#545862";
+    vim.g.terminal_color_9 =  "#E06C75";
+    vim.g.terminal_color_10 = "#98C379";
+    vim.g.terminal_color_11 = "#E5C07B";
+    vim.g.terminal_color_12 = "#61AFEF";
+    vim.g.terminal_color_13 = "#C678DD";
+    vim.g.terminal_color_14 = "#56B6C2";
+    vim.g.terminal_color_15 = "#C8CCD4";
 
     -- colors
     local bg = "#0e1415"
